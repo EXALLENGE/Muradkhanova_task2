@@ -25,9 +25,7 @@ while mistake < 5:
         print('Hit!')
         print('The word: ', *b, sep='')
     if '*' not in b:
-        print()
         print('You won!')
         break
     if mistake == 5:
-        print()
         print('You lost!')
